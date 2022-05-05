@@ -1,0 +1,16 @@
+.nav {
+    border-right: 1px solid black
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: yellow;
+}
+
+form button {
+    width: 200px;
+}
+
+#testimonial .card img {
+    width: 80px;
+    height: 80px;
+}
