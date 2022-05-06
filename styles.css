@@ -3,7 +3,8 @@
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background-color: yellow;
+    background-color: #cda45e;
+    color: white;
 }
 
 div.form-group button{
@@ -17,6 +18,97 @@ div.form-group.mt-3 {
     justify-content: center;
 }
 
+
+ #Gallery .image-items {
+    overflow: hidden;
+}
+#Gallery .image-items img {
+    transition: all ease-in-out 0.4s;
+}
+.image-items img {
+    margin-bottom: 5px;
+}
+i {
+    font-size: 30px;
+}
+
+/* Landing */
+#Landing {
+    background:
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        transparent
+      ),
+      /* bottom, image */ url(./Images/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+  #Landing button {
+      background-color: transparent;
+      color: white;
+      font-weight: bold;
+      border: 3px solid #cda45e;
+  }
+
+  #Landing h1 {
+      font-size: 4rem;
+      font-weight: bold;
+  }
+  #Landing h1 span {
+      color: #cda45e;
+  }
+  /* About Section */
+#About .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
+}
+#About img {
+    border-radius: 20px;
+}
+
+/* Why us */
+#whyUs .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
+}
+/* Menu */
+#Menu .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
+}
+/* Specials */
+#Special .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
+}
+/* Events */
+#Events .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
+}
+.image img {
+    border-radius: 20px;
+}
+/* Booking */
+#booking .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
+}
+#booking button {
+    background-color: #ffd58d;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+/* Testimonial */
+#Testimonial .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
+}
 #testimonial .card img {
     width: 80px;
     height: 80px;
@@ -42,51 +134,19 @@ div.carousel-indicators button.active {
     border-radius: 50%;
     height: 30px;
 }
- #Gallery .image-items {
-    overflow: hidden;
+/* Gallery */
+#Gallery .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
 }
-#Gallery .image-items img {
-    transition: all ease-in-out 0.4s;
-}
-.image-items img {
-    margin-bottom: 5px;
-}
-i {
-    font-size: 30px;
-}
-/* Landing */
-#Landing {
-    background:
-      /* top, transparent red, faked with gradient */ linear-gradient(
-        rgba(35, 34, 34, 0.45),
-        transparent
-      ),
-      /* bottom, image */ url(./Images/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    font-weight: bold;
-}
-  #Landing button {
-      background-color: transparent;
-      color: white;
-      font-weight: bold;
-      border: 3px solid #cda45e;
-  }
-
-  #Landing h1 {
-      font-size: 4rem;
-      font-weight: bold;
-  }
-  #Landing h1 span {
-      color: #cda45e;
-  }
-  
 /* Chefs */
-.chefs {
+#Chefs .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
+}
+    .chefs {
     position: relative;
-  }
-  
+    }
   .chef-details {
     background: linear-gradient(
       to top,
@@ -110,11 +170,19 @@ i {
   .chefs:hover .chef-details {
     opacity: 1;
   }
-
-  body {
-      background-color: #cda45e;
+  #Contact .container{
+    border: 10px solid #cda45e;
+    border-radius: 20px;
   }
-  
+
+  #contact button {
+    background-color: #ffd58d;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
   
   
   
