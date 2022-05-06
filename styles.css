@@ -1,16 +1,124 @@
 .nav {
-    border-right: 1px solid black
+    border-right: 1px solid black;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     background-color: yellow;
 }
 
-form button {
-    width: 200px;
+div.form-group button{
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+}
+
+div.form-group.mt-3 {
+    display: flex;
+    justify-content: center;
 }
 
 #testimonial .card img {
     width: 80px;
     height: 80px;
+    margin-bottom: 20px;
 }
+
+.testi_img {
+    line-height: 0.2;
+    margin: -40px 0 0 10px;
+}
+.testi_img img{
+    margin-bottom: 10px;
+}
+
+.testi-content p {
+    border: 1px solid lightslategray;
+    color: black;
+    padding-bottom: 30px;
+}
+
+div.carousel-indicators button.active {
+    background-color: lightslategray;
+    border-radius: 50%;
+    height: 30px;
+}
+ #Gallery .image-items {
+    overflow: hidden;
+}
+#Gallery .image-items img {
+    transition: all ease-in-out 0.4s;
+}
+.image-items img {
+    margin-bottom: 5px;
+}
+i {
+    font-size: 30px;
+}
+/* Landing */
+#Landing {
+    background:
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(35, 34, 34, 0.45),
+        transparent
+      ),
+      /* bottom, image */ url(./Images/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+  #Landing button {
+      background-color: transparent;
+      color: white;
+      font-weight: bold;
+      border: 3px solid #cda45e;
+  }
+
+  #Landing h1 {
+      font-size: 4rem;
+      font-weight: bold;
+  }
+  #Landing h1 span {
+      color: #cda45e;
+  }
+  
+/* Chefs */
+.chefs {
+    position: relative;
+  }
+  
+  .chef-details {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  
+  .chefs:hover .chef-details {
+    opacity: 1;
+  }
+
+  body {
+      background-color: #cda45e;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
